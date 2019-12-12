@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Welcome to the most extraordinary hotel in Bosnia"
+    />
+    <link rel="shortcut icon" type="image/png" href="img/hotel.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <title>Hotel XO | About</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo">
+            <img id="xo_logo" src="./img/logo.png" alt="Hotel XO" />
+            <a href="index.html" class="xo"> Hotel XO</a>
+          </h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about-info" class="bg-light py-3">
+      <div class="container">
+        <div class="info-left">
+          <h1 class="l-heading">
+            <span class="text-primary">About</span> Hotel XO
+          </h1>
+          <p>
+            Set within the popular and historic Baščaršija neighborhood, this
+            hip hotel is 11 km from Sarajevo International Airport. It's 4
+            minutes by foot from Latin Bridge. Bright, colorful rooms feature
+            modern furnishings, and offer free Wi-Fi, flat-screen TVs and
+            air-conditioning, plus minifridges and safes. Suites add separate
+            bedrooms. Room service is available. A breakfast buffet is served in
+            a restaurant's trendy dining room or on a terrace. Additional
+            amenities include parking, a garden and massage services, plus an
+            airport shuttle.
+          </p>
+          <p>
+            A breakfast buffet is served in a restaurant's trendy dining room or
+            on a terrace. Additional amenities include parking, a garden and
+            massage services, plus an airport shuttle.
+          </p>
+        </div>
+        <div class="info-right">
+          <img src="./img/photo-2.jpg" alt="hotel" />
+        </div>
+      </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section id="testimonials" class="py-3">
+      <div class="container">
+        <h2 class="l-heading">What Our Guests Say</h2>
+        <div class="testimonial bg-primary">
+          <img src="./img/person-1.jpg" alt="Samantha" />
+          <p>
+            Superb location, walking distance to the beach and into the busiest
+            street called 5th avenue, nice and helpful staff, rooms clean and
+            cozy so you will feel like home, breakfast in close restaurant
+            Marko&Laura
+          </p>
+        </div>
+
+        <div class="testimonial bg-primary">
+          <img src="./img/person-2.jpg" alt="Jen" />
+          <p>
+            We enjoy so much our stay at Newport house, all the stuff was really
+            kind, it is really close to the beach and the 5th ave. the room was
+            amazing !! And the roof top was incredible!! For sure We will come
+            back !! :)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p class="copyright">
+        &copy; Copyright <span id="year"> </span> by Hotel XO
+        <span><i role="image" aria-label="dash">➖</i> </span> Designed by
+        Dzenis H.
+      </p>
+    </footer>
+  </body>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</html>
